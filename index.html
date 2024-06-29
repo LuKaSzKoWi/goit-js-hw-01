@@ -3,50 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>task-1</title>
+    <title>JS-HW-01</JS-HW-01></title>
+    
 </head>
 
 <body>
-    <script>
-        function makeTransaction(quantity, pricePerDroid) {
-            const totalPrice = quantity * pricePerDroid;
-            return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
-        }
-
-        console.log(makeTransaction(5, 3000)); 
-        console.log(makeTransaction(3, 1000)); 
-        console.log(makeTransaction(10, 500)); 
-    </script>
-
-    <script>
-        function getShippingMessage(country, price, deliveryFee) {
-            const totalPrice = price + deliveryFee;
-            return `Shipping to ${country} will cost ${totalPrice} credits`;
-        }
-
-            // Check result
-        console.log(getShippingMessage("Australia", 120, 50));
-        console.log(getShippingMessage("Germany", 80, 20));
-        console.log(getShippingMessage("Sweden", 100, 20)); 
-    </script>
-
-    <script>
-        function getElementWidth(content, padding, border) {
-                const contentWidth = parseFloat(content);
-                const paddingWidth = parseFloat(padding);
-                const borderWidth = parseFloat(border);
-
-                const totalWidth = contentWidth + 2 * paddingWidth + 2 * borderWidth;
-
-                return totalWidth;
-            }
-
-            // Check result
-            console.log(getElementWidth("50px", "8px", "4px"));
-            console.log(getElementWidth("60px", "12px", "8.5px"));
-            console.log(getElementWidth("200px", "0px", "0px")); 
-    </script>
-</body>
-
-
-</html>
+    <script src="js/task-1.js"></script>
+    <script src="js/task-2.js"></script>
+    <script src="js/task-3.js"></script>
+</body>    
